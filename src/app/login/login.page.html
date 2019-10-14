@@ -1,0 +1,73 @@
+<ion-header  >
+  <ion-toolbar class="menutoolbar">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title ></ion-title>
+  </ion-toolbar>
+  <ion-toolbar class="menutoolbar">
+			<img object-fit: cover src="../assets/images/login.png" >
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+   
+    <ion-grid class="backgrounds ion-padding" >
+        <ion-row>
+            <ion-col >
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col >
+            </ion-col>
+        </ion-row>
+        <ion-row >
+            <ion-col >
+              <ion-label class="myfirsttext">Login with</ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col >
+              <ion-item>
+                <ion-label color="medium" position="floating" >Phone Number</ion-label>
+                <ion-input autocorrect="on"  clearInput="true" clearOnEdit="true" color="medium" inputmode="text" placeholder="Enter your phone number" required="true"></ion-input>
+                <ion-icon name="phone-portrait" color="medium" slot="end"></ion-icon>
+              </ion-item>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col >
+              <ion-item>
+                <ion-label color="medium" position="floating" >Password</ion-label>
+                <ion-input autocorrect="on"  clearInput="true" clearOnEdit="true" color="medium" inputmode="text" placeholder="Enter your password" required="true"></ion-input>
+                <ion-icon name="lock" color="medium" slot="end"></ion-icon>
+              </ion-item>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-row>
+        <ion-col >
+            <ion-button  expand="full" shape="round" color="warning">Sign In</ion-button>
+        </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col >
+          <ion-label class="forgotpass ion-float-right ion-padding">forgot password?</ion-label>
+        </ion-col>
+    </ion-row>
+    <ion-row class="containertext">
+        <ion-col >
+          <ion-label>___________ OR ___________</ion-label>
+        </ion-col>
+    </ion-row>
+    <ion-row class="containerforsocial">
+        <ion-col href="home">
+            <!-- <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon> -->
+            <img class="myimages ion-float-left" object-fit: cover src="../assets/images/facebook.png" >
+        </ion-col>
+        <ion-col >
+            <!-- <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon> -->
+            <img class="myimages ion-float-right" object-fit: cover src="../assets/images/gmail.png" >
+        </ion-col>
+    </ion-row>
+</ion-content>

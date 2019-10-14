@@ -1,5 +1,7 @@
 {
   "name": "cottoncareapps",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
